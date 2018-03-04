@@ -38,7 +38,7 @@ function cqmaterial_login_options_page() {
         wp_die('You do not have sufficent permissions to access this page. ');
     }
 
-    echo '<p>Welcome to the Material Login Customizer</p>';
+    require( 'inc/options-page-wrapper.php');
 
 }
 

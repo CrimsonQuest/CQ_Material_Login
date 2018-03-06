@@ -19,10 +19,12 @@
 						<h2><span><?php esc_attr_e( 'Your sites logo', 'WpAdminStyle' ); ?></span></h2>
 
 						<div class="inside">
+              <form method="post" action="">
 								<input type="text" value="https://" class="regular-text" />
                 <span class="description"><?php esc_attr_e( 'Add the URL of your logo here (px)', 'WpAdminStyle' ); ?></span><br>
-
-
+                <br>
+                <input class="button-primary" type="submit" name="logo_url_submit" value="<?php esc_attr_e( 'Save' ); ?>" />
+              </form>
 						</div>
 						<!-- .inside -->
 
